@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color:#EDE0D4;
+} 
+
+main{
+
+    background: linear-gradient(0deg,#b57c5925 0% ,#c8906d81 53.65%,#b27a58b7 65.73% , #ae7755c9 67.79%,
+     #a7714fc4 71.45%,  #a26c4ab9 74.15%, #c69777de 77.65%  );
+
+    border-radius: 20px;
+    height: 900px;
+    width: 500px;
+}
+
+
+#parte1{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#introducao{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.palavras-curriculo{
+    font-family: 'Sanchez', serif;
+    color: #4F2D16;
+    margin-left: 5px;
+
+}
+
+#imagem-parte1{
+ padding: 20px;
+ margin-top:20px;
+  
+}
+
+#titulo-parte1{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 48px;
+
+}
+
+
+
+#texto-parte1{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#formacoes{
+    background: linear-gradient(0deg,#fff3e809 30%, #DDB892 70%);
+    font-family: 'Sanchez', serif;
+    font-size: 400;
+    width: 249px;
+    height: 300px;
+     color: #4F2D16;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#titulo-formacoes{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+
+
+ #botao{
+    border: none;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family: 'Sanchez', serif;
+    font-weight: 400;
+    font-size: 36px;
+    width: 258px;
+    height: 68px;
+    background-color: #7F5539;
+    color: #E6CCB2;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+    box-shadow: inset 3px 3px 3px rgba(51, 49, 47, 0.5);
+ }
+
+ #botao:hover{
+    background-color: #321E11;
+    color: #997156;
+    box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.336);
+
+ }
